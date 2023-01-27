@@ -32,6 +32,7 @@ RUN 	apt-get -y install \
 	libgmp-dev \
 	swig \
 	python3-numpy \
+	libncurses-dev \
 	nano
 
 RUN 	git clone https://github.com/AllStarLink/ASL-Asterisk.git
